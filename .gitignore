@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build files
+dist/
+**/dist/
+build/
+**/build/
+
+# System files
+.DS_Store
+
+# Logs
+*.log
